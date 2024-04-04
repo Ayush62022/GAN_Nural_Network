@@ -28,11 +28,5 @@ It consists of convolutional layers followed by fully connected layers to classi
 Import TensorFlow Keras components for building the generator and discriminator.
 Define the architecture of the generator and discriminator models using TensorFlow Keras layers.
 ### Step 5: Construct Training Loop
-Setup loss functions and optimizers for training the GAN model.
-Subclass the TensorFlow Keras Model class to create a custom GAN model.
-Implement the training step method to train the generator and discriminator alternately.
-Implement a custom callback to monitor the training process and save generated images at the end of each epoch.
-Subclass the TensorFlow Keras Model class to create a custom GAN model.
-Implement the training step method to train the generator and discriminator alternately.
-Implement a custom callback to monitor the training process and save generated images at the end of each epoch.
+We set up the training loop for the GAN model, including defining loss functions, optimizers, and implementing the training process. The training loop alternates between training the generator and discriminator to optimize their respective objectives.
  
